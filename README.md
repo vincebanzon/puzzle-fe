@@ -1,3 +1,26 @@
+
+Build the app by running 
+
+$ npm run build
+
+Then run the command below to move build files to nginx
+$ rm -r /var/www/puzzle/build
+$ mv /root/puzzle-fe/build /var/www/puzzle/
+
+
+or simply run
+$ npm run deploy
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
